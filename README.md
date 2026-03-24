@@ -1,33 +1,21 @@
-## Hi there 👋
+### Harold
 
-I'm Harold, a software engineer focused on building high-performance distributed systems.
+Founder, [PwrDrvr LLC](https://pwrdrvr.com) — building open source tools for the cloud.
 
-### Featured Projects
+---
 
-#### 🔄 [p-map-iterable](https://github.com/shutterstock/p-map-iterable)
-A TypeScript library for efficient async iteration with backpressure control
-- Built on concepts from p-map and p-queue
-- Optimizes throughput for async read/write operations
-- Prevents producer/consumer racing through backpressure
+#### Current Projects
 
-#### 🗺️ [streaming-sitemaps](https://github.com/shutterstock/streaming-sitemaps)
-Generate XML sitemaps at scale from streaming data
-- Process hundreds of millions of items efficiently
-- Integrates with Kafka/Kinesis streams
-- Outputs to S3 with DynamoDB backing
+| Project | What it does |
+|---------|-------------|
+| [**OpenClaw Codex App Server**](https://github.com/pwrdrvr/openclaw-codex-app-server) | Bring OpenAI's Codex to Telegram and Discord — agentic coding from your phone |
+| [**ghcrawl**](https://github.com/pwrdrvr/ghcrawl) | TUI for crawling GitHub issues/PRs, generating embeddings, and clustering related work |
+| [**Lambda Dispatch**](https://github.com/pwrdrvr/lambda-dispatch) | High-performance request router for AWS Lambda — concurrent handling, fewer cold starts |
+| [**MicroApps**](https://github.com/pwrdrvr/microapps-core) | Deploy independently-versioned micro-frontend apps on AWS with shared routing |
 
-#### ⚡ [lambda-dispatch](https://github.com/pwrdrvr/lambda-dispatch)
-Advanced request routing for AWS Lambda in Rust and .NET
-- Eliminates cold starts
-- Enables concurrent request handling
-- Allows for streaming request and response bodies (although this is troublesome with ALBs)
-- ~5ms faster response times than standard Lambda
-- Includes CDK constructs for easy deployment
+#### Built at Shutterstock
 
-#### 🚀 [microapps-core](https://github.com/pwrdrvr/microapps-core)
-Next.js multi-version deployment framework
-- Run unlimited versions on a single URL
-- Share host between multiple apps
-- Smoke test new versions before user exposure
-- Seamless version transitions without page reloads
-- Includes CDK deployment constructs
+| Project | What it does |
+|---------|-------------|
+| [**streaming-sitemaps**](https://github.com/shutterstock/streaming-sitemaps) | AWS CDK construct — Kinesis events in, auto-rotating XML sitemaps to S3 |
+| [**p-map-iterable**](https://github.com/shutterstock/p-map-iterable) | Concurrent async mapping with back pressure for streaming workloads |
